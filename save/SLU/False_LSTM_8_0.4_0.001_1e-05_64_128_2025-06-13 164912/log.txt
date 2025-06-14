@@ -1,0 +1,165 @@
+[2025/13/06 16:49:12][config.py][line:104][INFO] {'data_dir': 'data/ProSLU', 'save_dir': 'save\\SLU\\False_LSTM_8_0.4_0.001_1e-05_64_128_2025-06-13 164912', 'load_dir': None, 'fix_seed': False, 'random_seed': 0, 'use_fitlog': False, 'gpu': False, 'use_info': False, 'use_pretrained': False, 'model_type': 'LSTM', 'max_length': 256, 'early_stop': False, 'patience': 10, 'fit_log_dir': 'logs/', 'logging_steps': 10, 'num_epoch': 100, 'batch_size': 8, 'l2_penalty': 1e-06, 'learning_rate': 0.001, 'bert_learning_rate': 1e-05, 'dropout_rate': 0.4, 'bert_dropout_rate': 0.1, 'differentiable': False, 'slot_forcing_rate': 0.9, 'word_embedding_dim': 64, 'encoder_hidden_dim': 768, 'slot_embedding_dim': 32, 'slot_decoder_hidden_dim': 64, 'intent_decoder_hidden_dim': 64, 'attention_hidden_dim': 1024, 'attention_output_dim': 128, 'info_embedding_dim': 128, 'up_input_dim': 11, 'ca_input_dim': 18, 'up_keys': ['音视频应用偏好', '出行交通工具偏好', '长途交通工具偏好', '是否有车'], 'ca_keys': ['移动状态', '姿态识别', '地理围栏', '户外围栏']}
+[2025/13/06 16:50:26][process.py][line:189][INFO] [Epoch  0]: The total slot loss on train data is 1020.278282, intent loss is 721.547805, cost about 69.577475 seconds.
+[2025/13/06 16:50:33][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.221023, intent acc score: 0.352166, semantic accuracy score: 0.005650.
+[2025/13/06 16:50:38][process.py][line:233][INFO] [Epoch  0]: In validation process, the slot f1 score is 0.209414, the intent acc is 0.365900, the semantic acc is 0.00, cost about 12.691185 seconds.
+
+[2025/13/06 16:51:41][process.py][line:189][INFO] [Epoch  1]: The total slot loss on train data is 1362.194507, intent loss is 1303.359188, cost about 62.290560 seconds.
+[2025/13/06 16:51:46][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.317123, intent acc score: 0.370998, semantic accuracy score: 0.135593.
+[2025/13/06 16:51:50][process.py][line:233][INFO] [Epoch  1]: In validation process, the slot f1 score is 0.310783, the intent acc is 0.371648, the semantic acc is 0.13, cost about 9.644672 seconds.
+
+[2025/13/06 16:52:47][process.py][line:189][INFO] [Epoch  2]: The total slot loss on train data is 1568.233537, intent loss is 1870.028593, cost about 56.484411 seconds.
+[2025/13/06 16:52:52][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.337838, intent acc score: 0.378531, semantic accuracy score: 0.171375.
+[2025/13/06 16:52:56][process.py][line:233][INFO] [Epoch  2]: In validation process, the slot f1 score is 0.308467, the intent acc is 0.388889, the semantic acc is 0.17, cost about 9.748290 seconds.
+
+[2025/13/06 16:53:54][process.py][line:189][INFO] [Epoch  3]: The total slot loss on train data is 1735.865855, intent loss is 2420.786721, cost about 57.188734 seconds.
+[2025/13/06 16:54:54][process.py][line:189][INFO] [Epoch  4]: The total slot loss on train data is 1883.112198, intent loss is 2956.894270, cost about 57.433082 seconds.
+[2025/13/06 16:55:55][process.py][line:189][INFO] [Epoch  5]: The total slot loss on train data is 2031.820027, intent loss is 3476.627865, cost about 58.845940 seconds.
+[2025/13/06 16:57:07][process.py][line:189][INFO] [Epoch  6]: The total slot loss on train data is 2172.760252, intent loss is 3974.381896, cost about 69.873276 seconds.
+[2025/13/06 16:57:14][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.332360, intent acc score: 0.412429, semantic accuracy score: 0.214689.
+[2025/13/06 16:57:21][process.py][line:233][INFO] [Epoch  6]: In validation process, the slot f1 score is 0.341463, the intent acc is 0.375479, the semantic acc is 0.21, cost about 13.855219 seconds.
+
+[2025/13/06 16:58:34][process.py][line:189][INFO] [Epoch  7]: The total slot loss on train data is 2334.556690, intent loss is 4451.212422, cost about 72.557795 seconds.
+[2025/13/06 16:59:58][process.py][line:189][INFO] [Epoch  8]: The total slot loss on train data is 2455.112181, intent loss is 4904.358239, cost about 80.805207 seconds.
+[2025/13/06 17:00:06][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.366881, intent acc score: 0.404896, semantic accuracy score: 0.225989.
+[2025/13/06 17:00:13][process.py][line:233][INFO] [Epoch  8]: In validation process, the slot f1 score is 0.364442, the intent acc is 0.415709, the semantic acc is 0.24, cost about 15.336724 seconds.
+
+[2025/13/06 17:01:44][process.py][line:189][INFO] [Epoch  9]: The total slot loss on train data is 2585.550245, intent loss is 5330.543776, cost about 90.780550 seconds.
+[2025/13/06 17:03:07][process.py][line:189][INFO] [Epoch 10]: The total slot loss on train data is 2700.951319, intent loss is 5732.196854, cost about 78.526136 seconds.
+[2025/13/06 17:04:26][process.py][line:189][INFO] [Epoch 11]: The total slot loss on train data is 2820.664127, intent loss is 6116.356297, cost about 76.643129 seconds.
+[2025/13/06 17:05:51][process.py][line:189][INFO] [Epoch 12]: The total slot loss on train data is 2922.378494, intent loss is 6477.206840, cost about 81.682755 seconds.
+[2025/13/06 17:07:23][process.py][line:189][INFO] [Epoch 13]: The total slot loss on train data is 3023.245377, intent loss is 6816.557432, cost about 87.608669 seconds.
+[2025/13/06 17:08:53][process.py][line:189][INFO] [Epoch 14]: The total slot loss on train data is 3138.423015, intent loss is 7134.629841, cost about 86.434419 seconds.
+[2025/13/06 17:10:17][process.py][line:189][INFO] [Epoch 15]: The total slot loss on train data is 3233.258365, intent loss is 7431.917856, cost about 80.116845 seconds.
+[2025/13/06 17:10:25][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.400117, intent acc score: 0.448211, semantic accuracy score: 0.284369.
+[2025/13/06 17:10:33][process.py][line:233][INFO] [Epoch 15]: In validation process, the slot f1 score is 0.375626, the intent acc is 0.386973, the semantic acc is 0.25, cost about 15.100519 seconds.
+
+[2025/13/06 17:11:59][process.py][line:189][INFO] [Epoch 16]: The total slot loss on train data is 3328.694058, intent loss is 7717.520888, cost about 86.853582 seconds.
+[2025/13/06 17:12:06][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.425818, intent acc score: 0.440678, semantic accuracy score: 0.303202.
+[2025/13/06 17:12:12][process.py][line:233][INFO] [Epoch 16]: In validation process, the slot f1 score is 0.367660, the intent acc is 0.400383, the semantic acc is 0.26, cost about 12.776005 seconds.
+
+[2025/13/06 17:13:31][process.py][line:189][INFO] [Epoch 17]: The total slot loss on train data is 3422.453685, intent loss is 7988.663673, cost about 79.157520 seconds.
+[2025/13/06 17:13:38][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.392763, intent acc score: 0.403013, semantic accuracy score: 0.291902.
+[2025/13/06 17:13:44][process.py][line:233][INFO] [Epoch 17]: In validation process, the slot f1 score is 0.388201, the intent acc is 0.390805, the semantic acc is 0.28, cost about 12.120252 seconds.
+
+[2025/13/06 17:15:05][process.py][line:189][INFO] [Epoch 18]: The total slot loss on train data is 3504.300608, intent loss is 8238.576758, cost about 81.571536 seconds.
+[2025/13/06 17:16:37][process.py][line:189][INFO] [Epoch 19]: The total slot loss on train data is 3594.820188, intent loss is 8474.966415, cost about 88.019995 seconds.
+[2025/13/06 17:16:46][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.421729, intent acc score: 0.425612, semantic accuracy score: 0.316384.
+[2025/13/06 17:16:54][process.py][line:233][INFO] [Epoch 19]: In validation process, the slot f1 score is 0.368840, the intent acc is 0.379310, the semantic acc is 0.29, cost about 17.006902 seconds.
+
+[2025/13/06 17:18:24][process.py][line:189][INFO] [Epoch 20]: The total slot loss on train data is 3663.087207, intent loss is 8703.914877, cost about 90.220465 seconds.
+[2025/13/06 17:19:45][process.py][line:189][INFO] [Epoch 21]: The total slot loss on train data is 3739.197116, intent loss is 8921.228817, cost about 76.799690 seconds.
+[2025/13/06 17:21:01][process.py][line:189][INFO] [Epoch 22]: The total slot loss on train data is 3811.102118, intent loss is 9116.995954, cost about 72.626647 seconds.
+[2025/13/06 17:21:08][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.406314, intent acc score: 0.404896, semantic accuracy score: 0.308851.
+[2025/13/06 17:21:13][process.py][line:233][INFO] [Epoch 22]: In validation process, the slot f1 score is 0.397881, the intent acc is 0.404215, the semantic acc is 0.30, cost about 12.094262 seconds.
+
+[2025/13/06 17:22:28][process.py][line:189][INFO] [Epoch 23]: The total slot loss on train data is 3882.017699, intent loss is 9301.462379, cost about 74.934911 seconds.
+[2025/13/06 17:22:35][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.386682, intent acc score: 0.416196, semantic accuracy score: 0.335217.
+[2025/13/06 17:22:40][process.py][line:233][INFO] [Epoch 23]: In validation process, the slot f1 score is 0.382414, the intent acc is 0.413793, the semantic acc is 0.33, cost about 11.931561 seconds.
+
+[2025/13/06 17:23:51][process.py][line:189][INFO] [Epoch 24]: The total slot loss on train data is 3940.614458, intent loss is 9481.742325, cost about 70.662345 seconds.
+[2025/13/06 17:25:06][process.py][line:189][INFO] [Epoch 25]: The total slot loss on train data is 4001.669390, intent loss is 9651.841305, cost about 72.428231 seconds.
+[2025/13/06 17:26:33][process.py][line:189][INFO] [Epoch 26]: The total slot loss on train data is 4065.447999, intent loss is 9805.393131, cost about 82.064025 seconds.
+[2025/13/06 17:27:56][process.py][line:189][INFO] [Epoch 27]: The total slot loss on train data is 4133.164116, intent loss is 9964.068147, cost about 80.449904 seconds.
+[2025/13/06 17:29:25][process.py][line:189][INFO] [Epoch 28]: The total slot loss on train data is 4184.438144, intent loss is 10107.427926, cost about 85.822037 seconds.
+[2025/13/06 17:31:03][process.py][line:189][INFO] [Epoch 29]: The total slot loss on train data is 4241.301986, intent loss is 10252.131783, cost about 93.881333 seconds.
+[2025/13/06 17:31:12][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.398716, intent acc score: 0.412429, semantic accuracy score: 0.354049.
+[2025/13/06 17:31:20][process.py][line:233][INFO] [Epoch 29]: In validation process, the slot f1 score is 0.390805, the intent acc is 0.400383, the semantic acc is 0.34, cost about 16.804048 seconds.
+
+[2025/13/06 17:32:54][process.py][line:189][INFO] [Epoch 30]: The total slot loss on train data is 4296.537961, intent loss is 10389.279996, cost about 93.928219 seconds.
+[2025/13/06 17:34:29][process.py][line:189][INFO] [Epoch 31]: The total slot loss on train data is 4353.440246, intent loss is 10521.772401, cost about 91.071728 seconds.
+[2025/13/06 17:36:04][process.py][line:189][INFO] [Epoch 32]: The total slot loss on train data is 4405.324501, intent loss is 10644.370891, cost about 90.767513 seconds.
+[2025/13/06 17:37:40][process.py][line:189][INFO] [Epoch 33]: The total slot loss on train data is 4449.797838, intent loss is 10767.875717, cost about 91.574824 seconds.
+[2025/13/06 17:39:08][process.py][line:189][INFO] [Epoch 34]: The total slot loss on train data is 4500.284821, intent loss is 10880.044572, cost about 84.121096 seconds.
+[2025/13/06 17:40:31][process.py][line:189][INFO] [Epoch 35]: The total slot loss on train data is 4549.013840, intent loss is 10988.704495, cost about 79.520519 seconds.
+[2025/13/06 17:42:07][process.py][line:189][INFO] [Epoch 36]: The total slot loss on train data is 4597.590837, intent loss is 11098.063927, cost about 91.918989 seconds.
+[2025/13/06 17:43:45][process.py][line:189][INFO] [Epoch 37]: The total slot loss on train data is 4648.336740, intent loss is 11214.841026, cost about 93.833024 seconds.
+[2025/13/06 17:45:21][process.py][line:189][INFO] [Epoch 38]: The total slot loss on train data is 4690.003543, intent loss is 11306.984889, cost about 92.354969 seconds.
+[2025/13/06 17:45:29][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.412504, intent acc score: 0.425612, semantic accuracy score: 0.361582.
+[2025/13/06 17:45:37][process.py][line:233][INFO] [Epoch 38]: In validation process, the slot f1 score is 0.392689, the intent acc is 0.408046, the semantic acc is 0.35, cost about 15.568811 seconds.
+
+[2025/13/06 17:47:04][process.py][line:189][INFO] [Epoch 39]: The total slot loss on train data is 4733.816445, intent loss is 11413.271465, cost about 87.005150 seconds.
+[2025/13/06 17:48:29][process.py][line:189][INFO] [Epoch 40]: The total slot loss on train data is 4773.716941, intent loss is 11504.008648, cost about 82.053551 seconds.
+[2025/13/06 17:49:58][process.py][line:189][INFO] [Epoch 41]: The total slot loss on train data is 4820.374257, intent loss is 11600.081663, cost about 85.177745 seconds.
+[2025/13/06 17:51:26][process.py][line:189][INFO] [Epoch 42]: The total slot loss on train data is 4868.664931, intent loss is 11684.303492, cost about 84.296521 seconds.
+[2025/13/06 17:52:51][process.py][line:189][INFO] [Epoch 43]: The total slot loss on train data is 4913.368566, intent loss is 11773.450607, cost about 80.470608 seconds.
+[2025/13/06 17:54:00][process.py][line:189][INFO] [Epoch 44]: The total slot loss on train data is 4956.277405, intent loss is 11864.339567, cost about 66.460678 seconds.
+[2025/13/06 17:55:10][process.py][line:189][INFO] [Epoch 45]: The total slot loss on train data is 4998.022550, intent loss is 11951.810416, cost about 66.694648 seconds.
+[2025/13/06 17:56:19][process.py][line:189][INFO] [Epoch 46]: The total slot loss on train data is 5039.157227, intent loss is 12028.425012, cost about 66.346039 seconds.
+[2025/13/06 17:57:37][process.py][line:189][INFO] [Epoch 47]: The total slot loss on train data is 5076.839066, intent loss is 12106.406312, cost about 74.565719 seconds.
+[2025/13/06 17:58:54][process.py][line:189][INFO] [Epoch 48]: The total slot loss on train data is 5114.252245, intent loss is 12178.171312, cost about 74.404370 seconds.
+[2025/13/06 18:00:14][process.py][line:189][INFO] [Epoch 49]: The total slot loss on train data is 5158.403891, intent loss is 12268.465526, cost about 76.010065 seconds.
+[2025/13/06 18:00:20][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.391457, intent acc score: 0.401130, semantic accuracy score: 0.354049.
+[2025/13/06 18:00:25][process.py][line:233][INFO] [Epoch 49]: In validation process, the slot f1 score is 0.389741, the intent acc is 0.406130, the semantic acc is 0.36, cost about 11.803325 seconds.
+
+[2025/13/06 18:01:38][process.py][line:189][INFO] [Epoch 50]: The total slot loss on train data is 5193.102909, intent loss is 12349.121914, cost about 72.787212 seconds.
+[2025/13/06 18:02:56][process.py][line:189][INFO] [Epoch 51]: The total slot loss on train data is 5229.529910, intent loss is 12415.701233, cost about 74.475980 seconds.
+[2025/13/06 18:04:15][process.py][line:189][INFO] [Epoch 52]: The total slot loss on train data is 5263.466997, intent loss is 12479.425088, cost about 75.546360 seconds.
+[2025/13/06 18:05:33][process.py][line:189][INFO] [Epoch 53]: The total slot loss on train data is 5292.548875, intent loss is 12551.150203, cost about 75.057686 seconds.
+[2025/13/06 18:06:52][process.py][line:189][INFO] [Epoch 54]: The total slot loss on train data is 5330.475825, intent loss is 12618.080052, cost about 75.920918 seconds.
+[2025/13/06 18:08:22][process.py][line:189][INFO] [Epoch 55]: The total slot loss on train data is 5360.763088, intent loss is 12689.622544, cost about 87.279700 seconds.
+[2025/13/06 18:09:44][process.py][line:189][INFO] [Epoch 56]: The total slot loss on train data is 5397.384343, intent loss is 12762.599268, cost about 78.276034 seconds.
+[2025/13/06 18:09:51][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.401170, intent acc score: 0.412429, semantic accuracy score: 0.365348.
+[2025/13/06 18:09:57][process.py][line:233][INFO] [Epoch 56]: In validation process, the slot f1 score is 0.399176, the intent acc is 0.423372, the semantic acc is 0.37, cost about 12.799989 seconds.
+
+[2025/13/06 18:11:26][process.py][line:189][INFO] [Epoch 57]: The total slot loss on train data is 5435.720289, intent loss is 12828.150616, cost about 89.624556 seconds.
+[2025/13/06 18:13:04][process.py][line:189][INFO] [Epoch 58]: The total slot loss on train data is 5461.946413, intent loss is 12901.322755, cost about 93.530713 seconds.
+[2025/13/06 18:14:41][process.py][line:189][INFO] [Epoch 59]: The total slot loss on train data is 5499.978480, intent loss is 12970.697402, cost about 93.295230 seconds.
+[2025/13/06 18:16:15][process.py][line:189][INFO] [Epoch 60]: The total slot loss on train data is 5530.067222, intent loss is 13026.930021, cost about 89.846583 seconds.
+[2025/13/06 18:17:45][process.py][line:189][INFO] [Epoch 61]: The total slot loss on train data is 5564.186077, intent loss is 13101.747521, cost about 86.723653 seconds.
+[2025/13/06 18:19:10][process.py][line:189][INFO] [Epoch 62]: The total slot loss on train data is 5595.889168, intent loss is 13167.880645, cost about 81.031808 seconds.
+[2025/13/06 18:20:40][process.py][line:189][INFO] [Epoch 63]: The total slot loss on train data is 5629.982260, intent loss is 13231.994440, cost about 86.788862 seconds.
+[2025/13/06 18:22:11][process.py][line:189][INFO] [Epoch 64]: The total slot loss on train data is 5666.866387, intent loss is 13287.621730, cost about 87.953593 seconds.
+[2025/13/06 18:23:48][process.py][line:189][INFO] [Epoch 65]: The total slot loss on train data is 5698.106826, intent loss is 13351.634321, cost about 92.980205 seconds.
+[2025/13/06 18:25:26][process.py][line:189][INFO] [Epoch 66]: The total slot loss on train data is 5729.165889, intent loss is 13411.408104, cost about 94.147588 seconds.
+[2025/13/06 18:27:04][process.py][line:189][INFO] [Epoch 67]: The total slot loss on train data is 5761.561707, intent loss is 13477.183756, cost about 93.241185 seconds.
+[2025/13/06 18:28:42][process.py][line:189][INFO] [Epoch 68]: The total slot loss on train data is 5794.830936, intent loss is 13538.722755, cost about 94.479612 seconds.
+[2025/13/06 18:30:23][process.py][line:189][INFO] [Epoch 69]: The total slot loss on train data is 5820.321746, intent loss is 13599.702889, cost about 96.402200 seconds.
+[2025/13/06 18:32:01][process.py][line:189][INFO] [Epoch 70]: The total slot loss on train data is 5853.279898, intent loss is 13661.284082, cost about 94.394063 seconds.
+[2025/13/06 18:33:38][process.py][line:189][INFO] [Epoch 71]: The total slot loss on train data is 5884.762111, intent loss is 13721.544017, cost about 92.605449 seconds.
+[2025/13/06 18:35:14][process.py][line:189][INFO] [Epoch 72]: The total slot loss on train data is 5911.860736, intent loss is 13768.100333, cost about 92.510278 seconds.
+[2025/13/06 18:36:53][process.py][line:189][INFO] [Epoch 73]: The total slot loss on train data is 5943.073923, intent loss is 13823.525573, cost about 94.732836 seconds.
+[2025/13/06 18:38:40][process.py][line:189][INFO] [Epoch 74]: The total slot loss on train data is 5975.439219, intent loss is 13889.046350, cost about 103.119268 seconds.
+[2025/13/06 18:40:24][process.py][line:189][INFO] [Epoch 75]: The total slot loss on train data is 6002.667056, intent loss is 13941.432302, cost about 99.411499 seconds.
+[2025/13/06 18:41:56][process.py][line:189][INFO] [Epoch 76]: The total slot loss on train data is 6027.107909, intent loss is 13990.389130, cost about 88.022590 seconds.
+[2025/13/06 18:43:22][process.py][line:189][INFO] [Epoch 77]: The total slot loss on train data is 6055.827827, intent loss is 14051.535750, cost about 82.221205 seconds.
+[2025/13/06 18:44:47][process.py][line:189][INFO] [Epoch 78]: The total slot loss on train data is 6086.906360, intent loss is 14108.805988, cost about 81.264880 seconds.
+[2025/13/06 18:44:53][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.384886, intent acc score: 0.397363, semantic accuracy score: 0.354049.
+[2025/13/06 18:44:59][process.py][line:233][INFO] [Epoch 78]: In validation process, the slot f1 score is 0.414159, the intent acc is 0.432950, the semantic acc is 0.38, cost about 12.152105 seconds.
+
+[2025/13/06 18:46:18][process.py][line:189][INFO] [Epoch 79]: The total slot loss on train data is 6113.710444, intent loss is 14152.438379, cost about 79.737414 seconds.
+[2025/13/06 18:47:40][process.py][line:189][INFO] [Epoch 80]: The total slot loss on train data is 6136.805105, intent loss is 14214.954849, cost about 78.122230 seconds.
+[2025/13/06 18:49:05][process.py][line:189][INFO] [Epoch 81]: The total slot loss on train data is 6163.013530, intent loss is 14262.901760, cost about 82.113848 seconds.
+[2025/13/06 18:50:32][process.py][line:189][INFO] [Epoch 82]: The total slot loss on train data is 6191.253254, intent loss is 14316.527587, cost about 83.942046 seconds.
+[2025/13/06 18:52:06][process.py][line:189][INFO] [Epoch 83]: The total slot loss on train data is 6218.743007, intent loss is 14369.086574, cost about 89.812037 seconds.
+[2025/13/06 18:53:33][process.py][line:189][INFO] [Epoch 84]: The total slot loss on train data is 6246.355643, intent loss is 14424.036134, cost about 83.925161 seconds.
+[2025/13/06 18:54:58][process.py][line:189][INFO] [Epoch 85]: The total slot loss on train data is 6278.584982, intent loss is 14474.297584, cost about 81.027640 seconds.
+[2025/13/06 18:56:19][process.py][line:189][INFO] [Epoch 86]: The total slot loss on train data is 6305.920443, intent loss is 14520.071670, cost about 78.039914 seconds.
+[2025/13/06 18:57:47][process.py][line:189][INFO] [Epoch 87]: The total slot loss on train data is 6334.618989, intent loss is 14573.549115, cost about 84.639448 seconds.
+[2025/13/06 18:59:21][process.py][line:189][INFO] [Epoch 88]: The total slot loss on train data is 6363.214342, intent loss is 14628.685598, cost about 89.834555 seconds.
+[2025/13/06 19:00:50][process.py][line:189][INFO] [Epoch 89]: The total slot loss on train data is 6390.645718, intent loss is 14683.031897, cost about 85.207996 seconds.
+[2025/13/06 19:02:01][process.py][line:189][INFO] [Epoch 90]: The total slot loss on train data is 6420.118491, intent loss is 14737.105906, cost about 68.378367 seconds.
+[2025/13/06 19:03:11][process.py][line:189][INFO] [Epoch 91]: The total slot loss on train data is 6453.101315, intent loss is 14785.313710, cost about 67.622943 seconds.
+[2025/13/06 19:04:22][process.py][line:189][INFO] [Epoch 92]: The total slot loss on train data is 6480.071767, intent loss is 14828.849009, cost about 68.591524 seconds.
+[2025/13/06 19:05:33][process.py][line:189][INFO] [Epoch 93]: The total slot loss on train data is 6503.924018, intent loss is 14875.905251, cost about 67.161268 seconds.
+[2025/13/06 19:06:43][process.py][line:189][INFO] [Epoch 94]: The total slot loss on train data is 6532.524673, intent loss is 14922.273125, cost about 67.526467 seconds.
+[2025/13/06 19:07:57][process.py][line:189][INFO] [Epoch 95]: The total slot loss on train data is 6559.009734, intent loss is 14972.214330, cost about 71.122947 seconds.
+[2025/13/06 19:09:14][process.py][line:189][INFO] [Epoch 96]: The total slot loss on train data is 6582.355428, intent loss is 15020.179635, cost about 74.439999 seconds.
+[2025/13/06 19:10:47][process.py][line:189][INFO] [Epoch 97]: The total slot loss on train data is 6608.270983, intent loss is 15061.533664, cost about 89.716734 seconds.
+[2025/13/06 19:12:30][process.py][line:189][INFO] [Epoch 98]: The total slot loss on train data is 6635.846947, intent loss is 15104.554103, cost about 99.013817 seconds.
+[2025/13/06 19:14:18][process.py][line:189][INFO] [Epoch 99]: The total slot loss on train data is 6659.102464, intent loss is 15153.463979, cost about 103.816755 seconds.

@@ -1,0 +1,67 @@
+[2025/13/06 20:50:27][config.py][line:108][INFO] {'data_dir': 'data/ProSLU', 'save_dir': 'save\\BERTSLU\\False_ELECTRA_8_0.4_0.001_1e-05_64_128_2025-06-13 205027', 'load_dir': None, 'fix_seed': False, 'random_seed': 0, 'use_fitlog': False, 'gpu': True, 'use_info': False, 'use_pretrained': True, 'model_type': 'ELECTRA', 'max_length': 256, 'early_stop': False, 'patience': 10, 'fit_log_dir': 'logs/', 'logging_steps': 10, 'use_kg': True, 'use_profile': True, 'use_context': True, 'num_epoch': 20, 'batch_size': 8, 'l2_penalty': 1e-06, 'learning_rate': 0.001, 'bert_learning_rate': 1e-05, 'dropout_rate': 0.4, 'bert_dropout_rate': 0.1, 'differentiable': False, 'slot_forcing_rate': 0.9, 'word_embedding_dim': 64, 'encoder_hidden_dim': 768, 'slot_embedding_dim': 32, 'slot_decoder_hidden_dim': 64, 'intent_decoder_hidden_dim': 64, 'attention_hidden_dim': 1024, 'attention_output_dim': 128, 'info_embedding_dim': 128, 'up_input_dim': 11, 'ca_input_dim': 18, 'up_keys': ['音视频应用偏好', '出行交通工具偏好', '长途交通工具偏好', '是否有车'], 'ca_keys': ['移动状态', '姿态识别', '地理围栏', '户外围栏']}
+[2025/13/06 20:50:56][process.py][line:25][INFO] The model has been loaded into GPU and cost 0.305644 seconds.
+
+[2025/13/06 20:52:37][process.py][line:189][INFO] [Epoch  0]: The total slot loss on train data is 848.815729, intent loss is 676.354764, cost about 96.609839 seconds.
+[2025/13/06 20:52:46][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.276353, intent acc score: 0.372881, semantic accuracy score: 0.018832.
+[2025/13/06 20:52:55][process.py][line:233][INFO] [Epoch  0]: In validation process, the slot f1 score is 0.265324, the intent acc is 0.377395, the semantic acc is 0.02, cost about 18.396278 seconds.
+
+[2025/13/06 20:54:03][process.py][line:189][INFO] [Epoch  1]: The total slot loss on train data is 1096.470634, intent loss is 1237.485230, cost about 67.677351 seconds.
+[2025/13/06 20:54:12][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.336547, intent acc score: 0.427495, semantic accuracy score: 0.111111.
+[2025/13/06 20:54:21][process.py][line:233][INFO] [Epoch  1]: In validation process, the slot f1 score is 0.333236, the intent acc is 0.436782, the semantic acc is 0.14, cost about 17.832256 seconds.
+
+[2025/13/06 20:55:53][process.py][line:189][INFO] [Epoch  2]: The total slot loss on train data is 1254.109095, intent loss is 1766.083579, cost about 91.966579 seconds.
+[2025/13/06 20:56:01][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.367729, intent acc score: 0.451977, semantic accuracy score: 0.225989.
+[2025/13/06 20:56:09][process.py][line:233][INFO] [Epoch  2]: In validation process, the slot f1 score is 0.345882, the intent acc is 0.417625, the semantic acc is 0.18, cost about 16.377911 seconds.
+
+[2025/13/06 20:57:32][process.py][line:189][INFO] [Epoch  3]: The total slot loss on train data is 1390.542924, intent loss is 2237.992167, cost about 82.312686 seconds.
+[2025/13/06 20:59:33][process.py][line:189][INFO] [Epoch  4]: The total slot loss on train data is 1496.272759, intent loss is 2661.100237, cost about 117.505646 seconds.
+[2025/13/06 20:59:44][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.397308, intent acc score: 0.440678, semantic accuracy score: 0.229755.
+[2025/13/06 20:59:53][process.py][line:233][INFO] [Epoch  4]: In validation process, the slot f1 score is 0.385975, the intent acc is 0.402299, the semantic acc is 0.20, cost about 20.661898 seconds.
+
+[2025/13/06 21:01:50][process.py][line:189][INFO] [Epoch  5]: The total slot loss on train data is 1604.967012, intent loss is 3038.210553, cost about 117.036337 seconds.
+[2025/13/06 21:03:40][process.py][line:189][INFO] [Epoch  6]: The total slot loss on train data is 1694.425540, intent loss is 3396.408760, cost about 104.150337 seconds.
+[2025/13/06 21:03:46][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.413088, intent acc score: 0.467043, semantic accuracy score: 0.291902.
+[2025/13/06 21:03:53][process.py][line:233][INFO] [Epoch  6]: In validation process, the slot f1 score is 0.400825, the intent acc is 0.438697, the semantic acc is 0.27, cost about 12.649348 seconds.
+
+[2025/13/06 21:05:00][process.py][line:189][INFO] [Epoch  7]: The total slot loss on train data is 1779.562376, intent loss is 3712.240700, cost about 67.524606 seconds.
+[2025/13/06 21:06:12][process.py][line:189][INFO] [Epoch  8]: The total slot loss on train data is 1868.003953, intent loss is 4009.927812, cost about 69.313623 seconds.
+[2025/13/06 21:06:18][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.474824, intent acc score: 0.461394, semantic accuracy score: 0.363465.
+[2025/13/06 21:06:25][process.py][line:233][INFO] [Epoch  8]: In validation process, the slot f1 score is 0.439729, the intent acc is 0.421456, the semantic acc is 0.32, cost about 12.915584 seconds.
+
+[2025/13/06 21:07:34][process.py][line:189][INFO] [Epoch  9]: The total slot loss on train data is 1945.888902, intent loss is 4280.932398, cost about 68.590117 seconds.
+[2025/13/06 21:08:49][process.py][line:189][INFO] [Epoch 10]: The total slot loss on train data is 2015.150429, intent loss is 4530.379321, cost about 71.809850 seconds.
+[2025/13/06 21:09:54][process.py][line:189][INFO] [Epoch 11]: The total slot loss on train data is 2073.576399, intent loss is 4758.565546, cost about 62.719632 seconds.
+[2025/13/06 21:10:00][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.446976, intent acc score: 0.440678, semantic accuracy score: 0.346516.
+[2025/13/06 21:10:07][process.py][line:233][INFO] [Epoch 11]: In validation process, the slot f1 score is 0.443463, the intent acc is 0.431034, the semantic acc is 0.35, cost about 12.775795 seconds.
+
+[2025/13/06 21:11:39][process.py][line:189][INFO] [Epoch 12]: The total slot loss on train data is 2132.419082, intent loss is 4970.992226, cost about 91.984503 seconds.
+[2025/13/06 21:11:47][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.455474, intent acc score: 0.459510, semantic accuracy score: 0.397363.
+[2025/13/06 21:11:55][process.py][line:233][INFO] [Epoch 12]: In validation process, the slot f1 score is 0.426046, the intent acc is 0.419540, the semantic acc is 0.35, cost about 16.086802 seconds.
+
+[2025/13/06 21:13:24][process.py][line:189][INFO] [Epoch 13]: The total slot loss on train data is 2183.050905, intent loss is 5155.691317, cost about 89.309609 seconds.
+[2025/13/06 21:15:06][process.py][line:189][INFO] [Epoch 14]: The total slot loss on train data is 2235.808343, intent loss is 5320.999864, cost about 97.379836 seconds.
+[2025/13/06 21:16:31][process.py][line:189][INFO] [Epoch 15]: The total slot loss on train data is 2275.675796, intent loss is 5470.551415, cost about 81.061764 seconds.
+[2025/13/06 21:16:42][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.464776, intent acc score: 0.450094, semantic accuracy score: 0.393597.
+[2025/13/06 21:16:52][process.py][line:233][INFO] [Epoch 15]: In validation process, the slot f1 score is 0.422013, the intent acc is 0.417625, the semantic acc is 0.36, cost about 20.145276 seconds.
+
+[2025/13/06 21:18:19][process.py][line:189][INFO] [Epoch 16]: The total slot loss on train data is 2315.621003, intent loss is 5605.215660, cost about 87.882015 seconds.
+[2025/13/06 21:19:31][process.py][line:189][INFO] [Epoch 17]: The total slot loss on train data is 2357.391820, intent loss is 5730.277857, cost about 68.663682 seconds.
+[2025/13/06 21:20:41][process.py][line:189][INFO] [Epoch 18]: The total slot loss on train data is 2397.468878, intent loss is 5838.072299, cost about 67.990078 seconds.
+[2025/13/06 21:22:28][process.py][line:189][INFO] [Epoch 19]: The total slot loss on train data is 2433.767587, intent loss is 5936.238017, cost about 104.358473 seconds.
+[2025/13/06 21:22:36][process.py][line:222][INFO] 
+Test result: slot f1 score: 0.442757, intent acc score: 0.453861, semantic accuracy score: 0.414313.
+[2025/13/06 21:22:44][process.py][line:233][INFO] [Epoch 19]: In validation process, the slot f1 score is 0.435218, the intent acc is 0.436782, the semantic acc is 0.39, cost about 15.493024 seconds.
+
+[2025/13/06 21:22:48][process.py][line:273][INFO] load data/ProSLU to test
+[2025/13/06 21:22:51][train.py][line:41][INFO] 
+Accepted performance: (0.4427570093457944, 0.4538606403013183, 0.4143126177024482) at test dataset;
+
